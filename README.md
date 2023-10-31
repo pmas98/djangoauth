@@ -1,4 +1,4 @@
-README
+**README**
 
 This project is a web application built with Django and React. It includes authorization and login features, as well as fully responsive screens. The purpose of this application is to manage companies and employees.
 
