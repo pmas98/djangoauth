@@ -1,0 +1,106 @@
+
+.custom-button {
+    background-color: #A4A9FC;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .custom-button:hover {
+    background-color: #8a83d6;
+  }
+
+  
+.change-view-button {
+  background-color: #3DA58A;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.change-view-button:hover {
+  background-color: #2e8f5d;
+}
+
+/*BOTÃO DE LOGIN*/
+
+.form-wrapper{
+  background-color: #A4A9FC;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  position: relative;
+	transition: 0.3s ease-in-out;
+}
+
+.form-wrapper {
+  z-index: 1;
+}
+.form-wrapper::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background: #92d490;
+
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+.form-wrapper:hover {
+  color: white;
+}
+.form-wrapper:hover::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+/*BOTÃO DE LOGOUT*/
+
+.logout-wrapper{
+  background-color: #D22B2B;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  position: relative;
+	transition: 0.3s ease-in-out;
+}
+
+.logout-wrapper {
+  z-index: 1;
+}
+.logout-wrapper::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background: white;
+
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+.logout-wrapper:hover {
+  color: #D22B2B;
+  border: #D22B2B solid 1px;
+}
+.logout-wrapper:hover::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
