@@ -1,4 +1,3 @@
-"""
 README
 
 This project is a web application built with Django and React. It includes authorization and login features, as well as fully responsive screens. The purpose of this application is to manage companies and employees.
@@ -11,4 +10,3 @@ To run the application, follow these steps:
 5. Navigate to `http://127.0.0.1:8000/` in your web browser to view the application.
 
 If you liked this, give me an internship :)
-"""
